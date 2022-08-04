@@ -1,4 +1,3 @@
-from calendar import c
 import random
 
 def computer_guess(x):
@@ -16,7 +15,7 @@ def computer_guess(x):
         elif feedback == 'l':
             low = guess + 1
 
-    print(f"The computer have guessed our number {guess} correctly!!!")
+    print(f"The computer have guessed your number {guess} correctly!!!")
 
 computer_guess(20)    
 
